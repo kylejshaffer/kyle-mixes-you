@@ -1,6 +1,6 @@
 <?php
 if($_POST["message"]) {
-  mail("kylefth@gmail.com",$_POST["message"], $_POST["email"]);
+mail("kylefth@email.address", "Here is the subject line",
+$_POST["message"]. "From: an@email.address");
 }
 ?>
-<p>Your email has been sent.</p>
