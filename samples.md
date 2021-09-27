@@ -1,2 +1,0 @@
-# Samples
-Some example samples.
