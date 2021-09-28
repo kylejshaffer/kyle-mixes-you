@@ -2218,3 +2218,12 @@ input, select, textarea {
   border: solid 2px white;
   z-index: 1;
 }
+
+.row:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.row:hover .button {
+  opacity: 1;
+}
